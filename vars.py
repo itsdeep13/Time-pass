@@ -2,22 +2,22 @@ import os
 from os import environ
 
 # API Configuration
-API_ID = int(os.environ.get("API_ID", "22849789"))
-API_HASH = os.environ.get("API_HASH", "0fc127c6055acd59f00ec6c229e1e3c4")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7701367034:AAEFtfJxcicCjhn2kwj2owJ7-CFNXZhtbEI")
+API_ID = int(os.environ.get("API_ID", "22484497"))
+API_HASH = os.environ.get("API_HASH", "c38cb053916c47a97590c244663cbaef")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8171281977:AAFtSwpGTwdnOP7sJdubziL8Jg2oBQ3EyUk")
 
-CREDIT = os.environ.get("CREDIT", "𝗬𝗔𝗦𝗛")
+CREDIT = os.environ.get("CREDIT", "Mighty Atom")
 # MongoDB Configuration
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "Autoappx")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://yashxug:Yash2835P@yashxug.om3yk1q.mongodb.net/retryWrites=true&w=majority&appName=Yashxug")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "uploaderbot")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://uploaderbot:uploaderbot@cluster0.mpesxpw.mongodb.net/?retryWrites=true&w=majority")
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
-OWNER_ID = int(os.environ.get("OWNER_ID", "7296271316"))
-ADMINS = [int(x) for x in os.environ.get("ADMINS", "7296271316").split()]  # Default to owner ID
+OWNER_ID = int(os.environ.get("OWNER_ID", "6252997817"))
+ADMINS = [int(x) for x in os.environ.get("ADMINS", "6252997817").split()]  # Default to owner ID
 
 # Channel Configuration
-PREMIUM_CHANNEL = ""
+PREMIUM_CHANNEL = "-1003030134537"
 # Thumbnail Configuration
 THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://i.fbcd.co/products/original/ug-logo-designs-2-acbfbf7b80e16df4c902a34d1caf148e7e1feca736e21075114990e62294f3ac.jpg").split()))
 
@@ -59,5 +59,6 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
